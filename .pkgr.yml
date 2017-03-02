@@ -2,5 +2,6 @@ default_dependencies: false
 dependencies:
   - git
   - fuse
+  - godep
 user: "$USERNAME"  
 cli: drive

@@ -1,8 +1,9 @@
-default_dependencies: false
+default_dependencies: true
 dependencies:
   - git
   - fuse
   - godep
+  - golang
 before:
   - go get -u github.com/odeke-em/drive/cmd/drive
 user: "$USERNAME"  

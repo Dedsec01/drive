@@ -4,7 +4,5 @@ dependencies:
   - fuse
   - godep
   - golang
-before:
-  - go get -u github.com/odeke-em/drive/cmd/drive
 user: "$USERNAME"  
 cli: drive

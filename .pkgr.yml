@@ -1,8 +1,3 @@
-default_dependencies: true
-dependencies:
-  - git
-  - fuse
-  - godep
-  - golang
+default_dependencies: false
 user: "$USERNAME"  
 cli: drive

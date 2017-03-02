@@ -1,0 +1,7 @@
+buildpack: "https://github.com/kr/heroku-buildpack-go.git"
+default_dependencies: false
+dependencies:
+  - git
+  - fuse
+user: "$USERNAME"  
+cli: rclone

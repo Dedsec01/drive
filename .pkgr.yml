@@ -3,5 +3,7 @@ dependencies:
   - git
   - fuse
   - godep
+before:
+  - go get -u github.com/odeke-em/drive/cmd/drive
 user: "$USERNAME"  
 cli: drive
